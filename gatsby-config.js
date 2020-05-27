@@ -2,13 +2,13 @@ module.exports = {
   siteMetadata: {
     title: `Diario de um Dev`,
     author: {
-      name: `João Arthur`,
+      name: `João Artur`,
       summary: `que vive no Rio Grande do Sul - Brasil e adora compartilhar conhecimento.`,
     },
     description: `Um blog de um jovem desenvolvedor compartilhando seu conhecimento com o mundo.`,
     siteUrl: `https://diariodeumdev.com.br`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `joaoarturdev`, 
     },
   },
   plugins: [
@@ -53,7 +53,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-109331900-2`,
       },
     },
     `gatsby-plugin-styled-components`,
@@ -77,6 +77,13 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
+    },
+    {
+      resolve: `@isamrish/gatsby-plugin-google-adsense`,
+      options: {
+        googleAdClientId: "ca-pub-7766872869061262",
+        head: false // Optional
+      }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
