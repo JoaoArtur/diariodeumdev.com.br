@@ -2,10 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `Diario de um Dev`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `João Arthur`,
+      summary: `que vive no Rio Grande do Sul - Brasil e adora compartilhar conhecimento.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Um blog de um jovem desenvolvedor compartilhando seu conhecimento com o mundo.`,
     siteUrl: `https://diariodeumdev.com.br`,
     social: {
       twitter: `kylemathews`,
@@ -56,13 +56,14 @@ module.exports = {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Diario de um Dev`,
+        short_name: `Diario de um Dev`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
